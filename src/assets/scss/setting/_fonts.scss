@@ -3,11 +3,22 @@
 @import url("https://websfont.github.io/gmarket/gmarket.css");
 
 .mont {
-    font-family: "Montserrat";
+  font-family: "Montserrat";
 }
 .nanum {
-    font-family: "nanumSquareNeo";
+  font-family: "nanumSquareNeo";
 }
 .gmarket {
-    font-family: "gmarket";
+  font-family: "gmarket";
+}
+
+.kica-light {
+  font-family: "Kica-Light", sans-serif;
+}
+
+@font-face {
+  font-family: "Kica-Light";
+  src: url("../../font/PERSONAL-USE-Kica-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }

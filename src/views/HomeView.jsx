@@ -12,18 +12,19 @@ import Main from "../components/Main";
 const HomeView = () => {
   return (
     <>
-        <Skip />
-        <Header />
-        <Main>
-          <Intro />
-          <Skill />
-          <Site />
-          <Port />
-          <Contact />
-        </Main>
-        <Footer />
-    </>
-  )
-}
+      <Skip />
+      <Header />
+      <Main>
+        <Intro />
 
-export default HomeView
+        <Site />
+        <Skill />
+        <Port />
+        <Contact />
+      </Main>
+      <Footer />
+    </>
+  );
+};
+
+export default HomeView;
