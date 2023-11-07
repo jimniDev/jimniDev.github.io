@@ -1,0 +1,90 @@
+#sentiment {
+  width: 100%;
+
+  .main {
+    position: relative;
+    margin-top: 10vh;
+    height: 50vh;
+    flex-direction: column;
+    position: sticky;
+    left: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    // border-top: 1px solid black;
+    // border-bottom: 1px solid black;
+  }
+
+  .project-container {
+    height: 50vh;
+    background-image: url("../../img/setiment/MAIN2.png");
+    background-size: cover; /* This will scale the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    img {
+    }
+  }
+
+  .project-title {
+    position: absolute;
+    padding: 16px;
+    font-weight: 800;
+    width: 50%;
+    font-size: 5rem;
+    letter-spacing: -0.2vw;
+    line-height: 1;
+
+    @media (max-width: 1172px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .overview {
+    padding: 0 20vw 0 20vw;
+
+    .intro__btn {
+      display: flex;
+    }
+    .intro_btn {
+      width: 100px;
+      height: 40px;
+      background: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border: 1.5px solid black;
+      margin: 30px 10px 30px 0;
+
+      &:hover {
+        background-color: black;
+        color: white;
+        border-color: transparent;
+      }
+    }
+
+    .overview-name {
+      font-weight: 600;
+      font-size: 3rem;
+    }
+
+    .overview-title {
+      font-weight: 600;
+      font-size: 2rem;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 1172px) {
+      padding: 0 10vw 0 10vw;
+    }
+  }
+
+  .detail {
+    padding: 50px 20vw 50px 20vw;
+
+    @media (max-width: 1172px) {
+      padding: 50px 0;
+    }
+  }
+}

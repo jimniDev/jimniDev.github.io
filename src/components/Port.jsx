@@ -1,8 +1,10 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useEffect, useRef } from "react";
 
 import { portText } from "../constants";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Link } from "react-router-dom";
 
 const Port = () => {
   const horizontalRef = useRef(null);
@@ -38,35 +40,22 @@ const Port = () => {
     <section id="port" ref={horizontalRef}>
       <div className="port__inner">
         <h2 className="port__title">
-          portfolio <em>포폴 작업물</em>
+          portfolio <em></em>
         </h2>
         <div className="port__wrap">
           {portText.map((port, key) => (
-            <article
-              className={`port__item p${key + 1}`}
-              key={key}
-              ref={(el) => (sectionRef.current[key] = el)}
-            >
-              <span className="num">{port.num}.</span>
-              <a
-                href={port.code}
-                target="_blank"
-                className="img"
-                rel="noreferrer noopener"
+            <Link to={`/portfolio/${port.id}`} key={key}>
+              <article
+                className={`port__item p${key + 1}`}
+                key={key}
+                ref={(el) => (sectionRef.current[key] = el)}
               >
+                <span className="num">{port.num}.</span>
                 <img src={port.img} alt={port.name} />
-              </a>
-              <h3 className="title">{port.title}</h3>
-              <p className="desc">{port.desc}</p>
-              <a
-                href={port.view}
-                target="_blank"
-                className="site"
-                rel="noreferrer noopener"
-              >
-                사이트 보기
-              </a>
-            </article>
+                <h3 className="title">{port.title}</h3>
+                <p className="desc">{port.desc}</p>
+              </article>
+            </Link>
           ))}
         </div>
       </div>

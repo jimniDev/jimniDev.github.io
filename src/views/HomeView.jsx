@@ -10,16 +10,17 @@ import Footer from "../components/Footer";
 import Main from "../components/Main";
 
 const HomeView = () => {
+  window.scrollTo(0, 0);
+
   return (
     <>
       <Skip />
       <Header />
       <Main>
         <Intro />
-
-        <Site />
-        <Skill />
         <Port />
+        <Skill />
+        <Site />
         <Contact />
       </Main>
       <Footer />

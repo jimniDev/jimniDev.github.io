@@ -57,6 +57,12 @@
     font-size: 1.2rem;
     cursor: pointer;
     border: 1.5px solid black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      border-color: transparent;
+    }
   }
 
   .intro__career {
@@ -67,7 +73,7 @@
     word-wrap: break-word;
     position: relative;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1172px) {
       font-size: 1.7rem;
     }
   }

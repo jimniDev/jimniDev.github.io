@@ -1,8 +1,29 @@
 import React, { useState } from "react";
 
-import { headerNav } from "../constants";
+const headerDetail = [
+  // {
+  //   title: "intro",
+  //   url: "/intro",
+  // },
+  // {
+  //   title: "about",
+  //   url: "/about",
+  // },
+  // {
+  //   title: "site",
+  //   url: "/site",
+  // },
+  // {
+  //   title: "portfolio",
+  //   url: "/port",
+  // },
+  // {
+  //   title: "contact",
+  //   url: "/contact",
+  // },
+];
 
-const Header = () => {
+const HeaderDetail = () => {
   const [show, setShow] = useState(false);
 
   const toggleMenu = () => {
@@ -25,7 +46,7 @@ const Header = () => {
           aria-label="메인메뉴"
         >
           <ul>
-            {headerNav.map((nav, key) => (
+            {headerDetail.map((nav, key) => (
               <li key={key}>
                 <a href={nav.url}>{nav.title}</a>
               </li>
@@ -48,4 +69,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderDetail;
