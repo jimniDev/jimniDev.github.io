@@ -1,22 +1,22 @@
 import React from "react";
-import "../assets/scss/section/_sentiment.scss";
-import detail2 from "../assets/img/setiment/002.png";
-import detail3 from "../assets/img/setiment/003.png";
-import detail4 from "../assets/img/setiment/004.png";
-import detail5 from "../assets/img/setiment/005.png";
-import detail6 from "../assets/img/setiment/006.png";
-import detail7 from "../assets/img/setiment/007.png";
-import detail8 from "../assets/img/setiment/008.png";
-import detail9 from "../assets/img/setiment/009.png";
-import detail10 from "../assets/img/setiment/010.png";
-import detail11 from "../assets/img/setiment/011.png";
-import detail12 from "../assets/img/setiment/012.png";
-import detail13 from "../assets/img/setiment/013.png";
-import detail14 from "../assets/img/setiment/014.png";
-import detail15 from "../assets/img/setiment/015.png";
-import detail16 from "../assets/img/setiment/016.png";
-import detail17 from "../assets/img/setiment/017.png";
-import detail18 from "../assets/img/setiment/018.png";
+import "../../assets/scss/section/_sentiment.scss";
+import detail2 from "../../assets/img/setiment/002.png";
+import detail3 from "../../assets/img/setiment/003.png";
+import detail4 from "../../assets/img/setiment/004.png";
+import detail5 from "../../assets/img/setiment/005.png";
+import detail6 from "../../assets/img/setiment/006.png";
+import detail7 from "../../assets/img/setiment/007.png";
+import detail8 from "../../assets/img/setiment/008.png";
+import detail9 from "../../assets/img/setiment/009.png";
+import detail10 from "../../assets/img/setiment/010.png";
+import detail11 from "../../assets/img/setiment/011.png";
+import detail12 from "../../assets/img/setiment/012.png";
+import detail13 from "../../assets/img/setiment/013.png";
+import detail14 from "../../assets/img/setiment/014.png";
+import detail15 from "../../assets/img/setiment/015.png";
+import detail16 from "../../assets/img/setiment/016.png";
+import detail17 from "../../assets/img/setiment/017.png";
+import detail18 from "../../assets/img/setiment/018.png";
 
 const Sentiment = () => {
   return (

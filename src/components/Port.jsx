@@ -22,7 +22,7 @@ const Port = () => {
       scrollTrigger: {
         trigger: horizontal,
         start: "top 56px",
-        end: () => "+=" + horizontal.offsetWidth,
+        end: () => "+=" + horizontal.offsetWidth * 5,
         pin: true,
         scrub: 1,
         markers: false,
@@ -51,7 +51,7 @@ const Port = () => {
                 ref={(el) => (sectionRef.current[key] = el)}
               >
                 <span className="num">{port.num}.</span>
-                <img src={port.img} alt={port.name} />
+                <img className="img" src={port.img} alt={port.name} />
                 <h3 className="title">{port.title}</h3>
                 <p className="desc">{port.desc}</p>
               </article>

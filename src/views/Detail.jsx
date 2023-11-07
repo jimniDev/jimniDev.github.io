@@ -3,7 +3,8 @@ import React from "react";
 import Skip from "../components/Skip";
 import Footer from "../components/Footer";
 import HeaderDetail from "../components/HeaderDetail";
-import Sentiment from "../components/Setiment";
+import Sentiment from "../components/detail/Setiment";
+import Cheating from "../components/detail/Cheating";
 import { useParams } from "react-router-dom";
 
 const Detail = () => {
@@ -14,6 +15,7 @@ const Detail = () => {
 
   const list = {
     "Setimental-Analysis": <Sentiment />,
+    "Fraud-Detection": <Cheating />,
   };
   return (
     <>
