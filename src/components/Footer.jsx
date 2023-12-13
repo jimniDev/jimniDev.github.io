@@ -5,7 +5,7 @@ import { footerText } from "../constants";
 const Footer = () => {
   return (
     <footer id="footer" role="contentinfo">
-      <div className="footer__inner">
+      {/* <div className="footer__inner">
         <h2 className="footer__text">
           <div>Jimin Kim</div>
           <div>@jimniDev</div>
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="footer__right">
           &copy; <br />
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

@@ -22,7 +22,7 @@ const Port = () => {
       scrollTrigger: {
         trigger: horizontal,
         start: "top 56px",
-        end: () => "+=" + horizontal.offsetWidth * 5,
+        end: () => "+=" + horizontal.offsetWidth,
         pin: true,
         scrub: 1,
         markers: false,
