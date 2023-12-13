@@ -109,7 +109,7 @@ export const portText = [
   {
     num: "01",
     title: "Setiment Analysis Music Recommendation @LGE",
-    desc: "",
+    desc: "personalized web service utilized Korean BERT, to analyze emotions. gain insights into their emotional states by visualizing the sentiment analysis results / music recommendations from Spotify",
     img: sentiment,
     code: "https://github.com/kimsangjunv1/-React-Portfolio",
     view: "https://portfoliosj-react.netlify.app",
@@ -120,7 +120,7 @@ export const portText = [
     num: "02",
     title:
       "Real-Time Fraud Detection System For Online Tests Using Video Analysis",
-    desc: "",
+    desc: `Human Action Recognition (HAR) object recognition, face recognition, eye tracking`,
     img: cheating,
     code: "https://github.com/seolhee313/PORTFOLIO-REACT",
     view: "https://portfolio-313.web.app/",
