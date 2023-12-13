@@ -16,7 +16,8 @@ import detail14 from "../../assets/img/setiment/014.png";
 import detail15 from "../../assets/img/setiment/015.png";
 import detail16 from "../../assets/img/setiment/016.png";
 import detail17 from "../../assets/img/setiment/017.png";
-import detail18 from "../../assets/img/setiment/018.png";
+
+import { Link } from "react-router-dom";
 
 const Sentiment = () => {
   return (
@@ -31,10 +32,24 @@ const Sentiment = () => {
       </div>
       <div className="overview">
         <div className="intro__btn">
-          <button className="intro_btn">Demo</button>
-          <button className="intro_btn">Code</button>
-          <button className="intro_btn">Code</button>
-          <button className="intro_btn">Code</button>
+          <Link
+            to={"https://github.com/jimniDev/Setiment-Analysis-Music"}
+            target="_blank"
+          >
+            <button className="intro_btn">Code(FE)</button>
+          </Link>
+          <Link
+            to={"https://github.com/jimniDev/Setiment-Analysis-Flask"}
+            target="_blank"
+          >
+            <button className="intro_btn">Code(BE)</button>
+          </Link>
+          <Link
+            to={"https://github.com/jimniDev/KoBERT_Sentiment_Analysis"}
+            target="_blank"
+          >
+            <button className="intro_btn">MODEL</button>
+          </Link>
         </div>
         <h1 className="overview-name">Overview</h1>
         <h1 className="overview-title">Project Brief</h1>

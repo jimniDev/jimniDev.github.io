@@ -16,14 +16,14 @@ export const headerNav = [
     title: "intro",
     url: "#intro",
   },
-  {
-    title: "about",
-    url: "#about",
-  },
-  {
-    title: "site",
-    url: "#site",
-  },
+  // {
+  //   title: "about",
+  //   url: "#about",
+  // },
+  // {
+  //   title: "site",
+  //   url: "#site",
+  // },
   {
     title: "portfolio",
     url: "#port",

@@ -86,7 +86,29 @@ const Intro = () => {
 
         <div className="intro__career">
           <div className="intro__btn">
-            <button className="intro_btn">Resume</button>
+            <Link
+              to={
+                "https://drive.google.com/file/d/1m4elCsaHiHJ7xbvO1n4wbzcWGFH7wcUG/view?usp=sharing"
+              }
+              target="_blank"
+            >
+              <button className="intro_btn" to="">
+                Resume
+              </button>
+            </Link>
+            <Link to={"https://github.com/jimniDev"} target="_blank">
+              <button className="intro_btn" to="">
+                Github
+              </button>
+            </Link>
+            <Link
+              to={"https://www.linkedin.com/in/jimin-kim-196692189"}
+              target="_blank"
+            >
+              <button className="intro_btn" to="">
+                LinkedIn
+              </button>
+            </Link>
           </div>
           <h3 className="intro__career">
             Frontend Engineer with 2+ years of professional work experience.

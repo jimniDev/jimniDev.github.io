@@ -8,11 +8,18 @@ import Port from "./components/Port";
 import Intro from "./components/Intro";
 import Contact from "./components/Contact";
 import Skill from "./components/Skill";
+import TagManager from "react-gtm-module";
 
 const App = () => {
   useEffect(() => {
     smooth();
     link();
+  }, []);
+
+  useEffect(() => {
+    TagManager.initialize({
+      gtmId: `${process.env.NEXT_PUBLIC_GTM_ID}`,
+    });
   }, []);
 
   return (
