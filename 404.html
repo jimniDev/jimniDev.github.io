@@ -6,9 +6,8 @@
   </head>
   <body>
     <script>
-      // Redirect to the requested path to handle client-side routing
-      const requestedPath = window.location.pathname.replace(/^\//, ""); // Remove leading slash
-      window.location.replace(`/${requestedPath}`);
+      // Redirect to the root path to handle client-side routing
+      window.location.replace("/");
     </script>
   </body>
 </html>
