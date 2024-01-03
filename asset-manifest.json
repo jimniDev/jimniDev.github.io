@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6d8b7d6.css",
-    "main.js": "/static/js/main.e1c051d4.js",
+    "main.css": "/static/css/main.fac055c5.css",
+    "main.js": "/static/js/main.da9b09ba.js",
     "static/media/c008.png": "/static/media/c008.7ec425e435a71297211a.png",
     "static/media/013.png": "/static/media/013.9ef166324a3f7664c78c.png",
     "static/media/012.png": "/static/media/012.2e79676d4d65f88a4836.png",
     "static/media/014.png": "/static/media/014.8c7fdb5bea1e6faf06a9.png",
+    "static/media/belt-main.png": "/static/media/belt-main.e96b3a885ae035d4f165.png",
     "static/media/015.png": "/static/media/015.f8b64a9cad48a4013b44.png",
     "static/media/003.png": "/static/media/003.e8f0b908d900ffb6f30d.png",
     "static/media/006.png": "/static/media/006.affb7ea2933b8e4a6c05.png",
@@ -31,6 +32,7 @@
     "static/media/port10.jpg": "/static/media/port10.e887146d87b151838576.jpg",
     "static/media/port06.jpg": "/static/media/port06.8754efaddfae4c96c423.jpg",
     "static/media/c015.png": "/static/media/c015.ea72b53e5f10054809ff.png",
+    "static/media/b5.png": "/static/media/b5.6841d0cbbcff0e96b35d.png",
     "static/media/port01.jpg": "/static/media/port01.86da11c450aa1ec41383.jpg",
     "static/media/port02.jpg": "/static/media/port02.d84264667591e1038e42.jpg",
     "static/media/C012.png": "/static/media/C012.bad3c2b5dfd2568a1f18.png",
@@ -38,18 +40,21 @@
     "static/media/port08.jpg": "/static/media/port08.37865dcd03b8e3e64163.jpg",
     "static/media/c009.png": "/static/media/c009.946dbce02236e98afd60.png",
     "static/media/c013.png": "/static/media/c013.07554efaedab20439f10.png",
+    "static/media/b3.png": "/static/media/b3.9b696ae8552788e9e87c.png",
     "static/media/PERSONAL-USE-Kica-Light.ttf": "/static/media/PERSONAL-USE-Kica-Light.394c14bc0b24fe6a2f4d.ttf",
     "static/media/port04.jpg": "/static/media/port04.736e7eaba137255e6a72.jpg",
     "static/media/LOGO.png": "/static/media/LOGO.25c0a3b9d110b28c7573.png",
     "static/media/usecase.drawio.png": "/static/media/usecase.drawio.cdc71238973f1f96b8ad.png",
+    "static/media/b2.png": "/static/media/b2.bd1cf056cf594ec01ea5.png",
     "static/media/port05.jpg": "/static/media/port05.d7cbc880837be1dc9761.jpg",
+    "static/media/b1.png": "/static/media/b1.eb318b2d1c56fb79703b.png",
     "static/media/arrow.svg": "/static/media/arrow.12016ca84546b85b5506.svg",
     "index.html": "/index.html",
-    "main.d6d8b7d6.css.map": "/static/css/main.d6d8b7d6.css.map",
-    "main.e1c051d4.js.map": "/static/js/main.e1c051d4.js.map"
+    "main.fac055c5.css.map": "/static/css/main.fac055c5.css.map",
+    "main.da9b09ba.js.map": "/static/js/main.da9b09ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6d8b7d6.css",
-    "static/js/main.e1c051d4.js"
+    "static/css/main.fac055c5.css",
+    "static/js/main.da9b09ba.js"
   ]
 }
