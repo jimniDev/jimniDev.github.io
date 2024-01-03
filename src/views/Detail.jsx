@@ -6,6 +6,7 @@ import HeaderDetail from "../components/HeaderDetail";
 import Sentiment from "../components/detail/Setiment";
 import Cheating from "../components/detail/Cheating";
 import { useParams } from "react-router-dom";
+import Belt from "../components/detail/Belt";
 
 const Detail = () => {
   // Detail 페이지의 내용을 구성
@@ -16,6 +17,7 @@ const Detail = () => {
   const list = {
     "Setimental-Analysis": <Sentiment />,
     "Fraud-Detection": <Cheating />,
+    "Smart-Belt-Dashboard": <Belt />,
   };
   return (
     <>

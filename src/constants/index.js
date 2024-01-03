@@ -10,6 +10,7 @@ import port09 from "../assets/img/port09.jpg";
 import port10 from "../assets/img/port10.jpg";
 import sentiment from "../assets/img/setiment/MAIN2.png";
 import cheating from "../assets/img/cheating/smartmockups_loojf1bw.jpg";
+import belt from "../assets/img/belt/belt-main.png";
 
 export const headerNav = [
   {
@@ -119,13 +120,23 @@ export const portText = [
   {
     num: "02",
     title:
-      "Real-Time Fraud Detection System For Online Tests Using Video Analysis",
+      "Real-Time Fraud Detection System For Online Tests Using Video Analysis @Konkuk",
     desc: `Human Action Recognition (HAR) object recognition, face recognition, eye tracking`,
     img: cheating,
     code: "https://github.com/seolhee313/PORTFOLIO-REACT",
     view: "https://portfolio-313.web.app/",
     name: "",
     id: "Fraud-Detection",
+  },
+  {
+    num: "03",
+    title: "B2B Web Dashboard utilizing WELT Smart Belt Data @Konkuk/Welt",
+    desc: `Industry-Academic Collaboration Project: Single Page Application (SPA) B2B web dashboard capable of viewing and managing various data from multiple users.`,
+    img: belt,
+    code: "https://github.com/seolhee313/PORTFOLIO-REACT",
+    view: "https://portfolio-313.web.app/",
+    name: "",
+    id: "Smart-Belt-Dashboard",
   },
 ];
 
